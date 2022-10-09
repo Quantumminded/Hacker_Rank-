@@ -1,0 +1,9 @@
+
+
+function vowelsAndConsonants(s) {
+  const vowels = ['a','e','i','o','u']
+  
+  s.split('').forEach(i => vowels.includes(i) ? console.log(i) : "")
+  s.split('').forEach(i => vowels.includes(i) ? "" : console.log(i))
+  
+}
